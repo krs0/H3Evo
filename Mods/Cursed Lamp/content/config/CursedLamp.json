@@ -1,0 +1,80 @@
+{
+	"cursedLamp" :{	
+		"name": "Cursed Lamp",
+		"handler": "configurable",
+		"types" : {
+			"cursedLamp" : 
+			{
+				"name": "Cursed Lamp (allows you to recruit 1-3 Efreet Sultans once)",
+				"rmg" : {
+					"value"		: 5000,
+					"rarity"	: 200,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"visit" : ["LAMPVIST"]
+				},
+				"blockedVisitable" : true,
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"max" : 33
+						},
+						"limiter": //condition to get reward
+						{
+							"resources" : {"gold" : 1100}
+						},
+						"message" : "{Cursed Lamp}\r\n\r\n",
+						"creatures": [ {"type": "efreetSultan", "amount": 1} ],
+						"resources": {"gold" : -1100},
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 33,
+							"max" : 66
+						},
+						"limiter": //condition to get reward
+						{
+							"resources" : {"gold" : 2200}
+						},
+						"message" : "{Cursed Lamp}\r\n\r\n",
+						"creatures": [ {"type": "efreetSultan", "amount": 2} ],
+						"resources": {"gold" : -2200},
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min":  66
+						},
+						"limiter": //condition to get reward
+						{
+							"resources" : {"gold" : 3300}
+						},
+						"message" : "{Cursed Lamp}\r\n\r\n",
+						"creatures": [ {"type": "efreetSultan", "amount": 3} ],
+						"resources": {"gold" : -3300},
+						"removeObject": true
+					}
+				],
+				"onEmptyMessage" : "{Cursed Lamp}\r\n\r\n",
+				"canRefuse": true,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"advCursedLamp" : 
+					{
+						"animation" : "ancientLamp/avtglam", 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VAV"],
+						"allowedTerrains": [ "lava", "sand" ] //hota jebus cross conditions
+					}
+				}
+			}
+		}	
+	}
+}
