@@ -1,11 +1,11 @@
 {
-	"mirageLamp" :{	
-		"name": "Mirage Lamp",
-		"handler": "configurable",
+	"mirageLamp" : {	
+		"name" : "Mirage Lamp",
+		"handler" : "configurable",
 		"types" : {
 			"mirageLamp" : 
 			{
-				"name": "Mirage Lamp (Ancient Lamp or Cursed Lamp? What could it be?)",
+				"name" : "Mirage Lamp (Ancient Lamp or Cursed Lamp? What could it be?)",
 				"rmg" : {
 					"value"		: 5000,
 					"rarity"	: 200,
@@ -18,111 +18,111 @@
 				"rewards" :
 				[
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"max" : 15
 						},
-						"limiter": //condition to get reward
+						"limiter" : //condition to get reward
 						{
 							"resources" : {"gold" : 2400}
 						},
 						"message" : "{Mirage Lamp}\r\n\r\n",
-						"creatures": [ {"type": "masterGenie", "amount": 4} ],
-						"resources": {"gold" : -2400},
-						"removeObject": true
+						"creatures" : [ {"type" : "masterGenie", "amount" : 4} ],
+						"resources" : {"gold" : -2400},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 15,
 							"max" : 30
 						},
-						"limiter": //condition to get reward
+						"limiter" : //condition to get reward
 						{
 							"resources" : {"gold" : 3000}
 						},
 						"message" : "{Mirage Lamp}\r\n\r\n",
-						"creatures": [ {"type": "masterGenie", "amount": 5} ],
-						"resources": {"gold" : -3000},
-						"removeObject": true
+						"creatures" : [ {"type" : "masterGenie", "amount" : 5} ],
+						"resources" : {"gold" : -3000},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 30,
 							"max" : 45
 						},
-						"limiter": //condition to get reward
+						"limiter" : //condition to get reward
 						{
 							"resources" : {"gold" : 3600}
 						},
 						"message" : "{Mirage Lamp}\r\n\r\n",
-						"creatures": [ {"type": "masterGenie", "amount": 6} ],
-						"resources": {"gold" : -3600},
-						"removeObject": true
+						"creatures" : [ {"type" : "masterGenie", "amount" : 6} ],
+						"resources" : {"gold" : -3600},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 45,
 							"max" : 50
 						},
-						"limiter": //condition to get reward
+						"limiter" : //condition to get reward
 						{
 							"resources" : {"gold" : 4200}
 						},
 						"message" : "{Mirage Lamp}\r\n\r\n",
-						"creatures": [ {"type": "masterGenie", "amount": 7} ],
-						"resources": {"gold" : -4200},
-						"removeObject": true
+						"creatures" : [ {"type" : "masterGenie", "amount" : 7} ],
+						"resources" : {"gold" : -4200},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 50,
 							"max" : 67
 						},
-						"limiter": //condition to get reward
+						"limiter" : //condition to get reward
 						{
 							"resources" : {"gold" : 1100}
 						},
 						"message" : "{Mirage Lamp}\r\n\r\n",
-						"creatures": [ {"type": "efreetSultan", "amount": 1} ],
-						"resources": {"gold" : -1100},
-						"removeObject": true
+						"creatures" : [ {"type" : "efreetSultan", "amount" : 1} ],
+						"resources" : {"gold" : -1100},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
 							"min" : 67,
 							"max" : 83
 						},
-						"limiter": //condition to get reward
+						"limiter" : //condition to get reward
 						{
 							"resources" : {"gold" : 2200}
 						},
 						"message" : "{Mirage Lamp}\r\n\r\n",
-						"creatures": [ {"type": "efreetSultan", "amount": 2} ],
-						"resources": {"gold" : -2200},
-						"removeObject": true
+						"creatures" : [ {"type" : "efreetSultan", "amount" : 2} ],
+						"resources" : {"gold" : -2200},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
+						"appearChance" : 
 						{
-							"min":  83
+							"min" :  83
 						},
-						"limiter": //condition to get reward
+						"limiter" : //condition to get reward
 						{
 							"resources" : {"gold" : 3300}
 						},
 						"message" : "{Mirage Lamp}\r\n\r\n",
-						"creatures": [ {"type": "efreetSultan", "amount": 3} ],
-						"resources": {"gold" : -3300},
-						"removeObject": true
+						"creatures" : [ {"type" : "efreetSultan", "amount" : 3} ],
+						"resources" : {"gold" : -3300},
+						"removeObject" : true
 					}
 				],
 				"onEmptyMessage" : "{Mirage Lamp}\r\n\r\n",
-				"canRefuse": true,
+				"canRefuse" : true,
 				"visitMode" : "unlimited",
 				"templates" : 
 				{
@@ -131,10 +131,34 @@
 						"animation" : "ancientLamp/avtglam", 
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : ["VAV"],
-						"allowedTerrains": [ "sand" ] //hota jebus cross conditions
+						"allowedTerrains" : [ "sand" ] //hota jebus cross conditions
 					}
 				}
 			}
 		}	
+	},
+	
+	"hota.hota configurable objects:ancientLamp" : { // override sand terrain for Ancient Lamp
+		"types" : {
+			"ancient Lamp" : {
+				"templates" : {
+					"avtglam" : {
+						"allowedTerrains" : [ "snow" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"h3evo.cursed lamp:cursedLamp" : { // override sand terrain for Ancient Lamp
+		"types" : {
+			"cursedLamp" : {
+				"templates" : {
+					"advCursedLamp" : {
+						"allowedTerrains" : [ "lava" ]
+					}
+				}
+			}
+		}
 	}
 }

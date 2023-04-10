@@ -1,13 +1,13 @@
 {
 	"name" : "Mirage Lamp",
-	"description" : "New object: Mirage Lamp - appears on sand only. Can be either an Ancient Lamp rewarding Master Genies or a Cursed Lamp rewarding Efreet Sultans", 
-	"author": "Krs. Based on Ancient Lamp made by HotA Crew.",
+	"description" : "New object: Mirage Lamp - appears on sand only. Can be either an Ancient Lamp rewarding Master Genies or a Cursed Lamp rewarding Efreet Sultans. The other laps will not appear anymore on sand terrain", 
+	"author" : "Krs. Based on Ancient Lamp made by HotA Crew.",
 	"version" : "0.0.1",
 	"compatibility" :
 	{
 		"min" : "1.2.0"
 	},
-	"contact": "",
+	"contact" : "",
 	"modType" : "Objects",
 	"objects" :
 	[

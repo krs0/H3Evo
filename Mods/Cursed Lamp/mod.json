@@ -1,13 +1,13 @@
 {
 	"name" : "Cursed Lamp",
 	"description" : "New object: Cursed Lamp. Hero has one time chance of purchasing 1-3 efreet with their normal cost. Appears on lava and sand", 
-	"author": "Krs. Based on Ancient Lamp made by HotA Crew. Original ideea http://heroescommunity.com/ forum.",
+	"author" : "Krs based on original ideea from Hourglass on http://heroescommunity.com/. Object based on Ancient Lamp made by HotA Crew. ",
 	"version" : "0.0.1",
 	"compatibility" :
 	{
 		"min" : "1.2.0"
 	},
-	"contact": "",
+	"contact" : "",
 	"modType" : "Objects",
 	"objects" :
 	[
