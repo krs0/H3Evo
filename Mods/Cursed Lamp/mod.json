@@ -9,6 +9,7 @@
 	},
 	"contact" : "",
 	"modType" : "Objects",
+	"depends" : ["hota.hota configurable objects"],
 	"objects" :
 	[
 		"config/CursedLamp"
