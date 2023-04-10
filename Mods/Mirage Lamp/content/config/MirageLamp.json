@@ -6,14 +6,12 @@
 			"mirageLamp" : 
 			{
 				"name" : "Mirage Lamp (Ancient Lamp or Cursed Lamp? What could it be?)",
-				"rmg" : {
-					"value"		: 5000,
-					"rarity"	: 200,
-					"zoneLimit" : 1
-				},
 				"sounds" : {
 					"visit" : ["LAMPVIST"]
 				},
+				"canRefuse" : true,
+				"visitMode" : "unlimited",
+				"onEmptyMessage" : "{Mirage Lamp}\r\n\r\n",
 				"blockedVisitable" : true,
 				"rewards" :
 				[
@@ -26,10 +24,10 @@
 						{
 							"resources" : {"gold" : 2400}
 						},
-						"message" : "{Mirage Lamp}\r\n\r\n",
 						"creatures" : [ {"type" : "masterGenie", "amount" : 4} ],
 						"resources" : {"gold" : -2400},
-						"removeObject" : true
+						"removeObject" : true,
+						"message" : "{Mirage Lamp}\r\n\r\n",
 					},
 					{
 						"appearChance" : 
@@ -41,10 +39,10 @@
 						{
 							"resources" : {"gold" : 3000}
 						},
-						"message" : "{Mirage Lamp}\r\n\r\n",
 						"creatures" : [ {"type" : "masterGenie", "amount" : 5} ],
 						"resources" : {"gold" : -3000},
-						"removeObject" : true
+						"removeObject" : true,
+						"message" : "{Mirage Lamp}\r\n\r\n",
 					},
 					{
 						"appearChance" : 
@@ -56,10 +54,10 @@
 						{
 							"resources" : {"gold" : 3600}
 						},
-						"message" : "{Mirage Lamp}\r\n\r\n",
 						"creatures" : [ {"type" : "masterGenie", "amount" : 6} ],
 						"resources" : {"gold" : -3600},
-						"removeObject" : true
+						"removeObject" : true,
+						"message" : "{Mirage Lamp}\r\n\r\n",
 					},
 					{
 						"appearChance" : 
@@ -71,10 +69,10 @@
 						{
 							"resources" : {"gold" : 4200}
 						},
-						"message" : "{Mirage Lamp}\r\n\r\n",
 						"creatures" : [ {"type" : "masterGenie", "amount" : 7} ],
 						"resources" : {"gold" : -4200},
-						"removeObject" : true
+						"removeObject" : true,
+						"message" : "{Mirage Lamp}\r\n\r\n",
 					},
 					{
 						"appearChance" : 
@@ -86,10 +84,10 @@
 						{
 							"resources" : {"gold" : 1100}
 						},
-						"message" : "{Mirage Lamp}\r\n\r\n",
 						"creatures" : [ {"type" : "efreetSultan", "amount" : 1} ],
 						"resources" : {"gold" : -1100},
-						"removeObject" : true
+						"removeObject" : true,
+						"message" : "{Mirage Lamp}\r\n\r\n",
 					},
 					{
 						"appearChance" : 
@@ -101,10 +99,10 @@
 						{
 							"resources" : {"gold" : 2200}
 						},
-						"message" : "{Mirage Lamp}\r\n\r\n",
 						"creatures" : [ {"type" : "efreetSultan", "amount" : 2} ],
 						"resources" : {"gold" : -2200},
-						"removeObject" : true
+						"removeObject" : true,
+						"message" : "{Mirage Lamp}\r\n\r\n",
 					},
 					{
 						"appearChance" : 
@@ -115,15 +113,17 @@
 						{
 							"resources" : {"gold" : 3300}
 						},
-						"message" : "{Mirage Lamp}\r\n\r\n",
 						"creatures" : [ {"type" : "efreetSultan", "amount" : 3} ],
 						"resources" : {"gold" : -3300},
-						"removeObject" : true
+						"removeObject" : true,
+						"message" : "{Mirage Lamp}\r\n\r\n",
 					}
 				],
-				"onEmptyMessage" : "{Mirage Lamp}\r\n\r\n",
-				"canRefuse" : true,
-				"visitMode" : "unlimited",
+				"rmg" : {
+					"value"		: 5000,
+					"rarity"	: 200,
+					"zoneLimit" : 1
+				},
 				"templates" : 
 				{
 					"advMirageLamp" : 
