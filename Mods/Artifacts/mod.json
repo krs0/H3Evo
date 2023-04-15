@@ -1,11 +1,11 @@
 {
 	"author" : "krs",
 	"contact" : "",
-	"description" : "Work-in-progress expansion for Heroes of Might and Magic III",
+	"description" : "Artifact Collection, new and modified from SoD or other mods",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Expansion",
-	"name" : "H3Evo",
+	"modType" : "Objects",
+	"name" : "H3Evo Artifacts",
 	"version" : "0.0.1",
 	"changelog" : 
 	{

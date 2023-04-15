@@ -9,7 +9,7 @@
 	},
 	"contact" : "",
 	"modType" : "Objects",
-	"depends" : ["hota.hota configurable objects", "h3evo.cursed lamp"],
+	"depends" : ["hota.hota configurable objects", "h3evo.artifacts.cursed lamp"],
 	"objects" :
 	[
 		"config/MirageLamp"
