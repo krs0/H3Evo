@@ -1,0 +1,23 @@
+{
+	"core:masterGremlin" :
+	{
+		"shots" : 6,
+		"abilities" :
+		{ 
+			"limitedShootingRange" : 
+			{ 
+				"type" : "LIMITED_SHOOTING_RANGE",
+				"val" : 10, // equals to ranged full damage default limit for ranged creatures.
+				"addInfo" : 6 // greater than most low tier unit speeds
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"rangedRetaliation" :
+			{
+				"type" : "RANGED_RETALIATION"
+			}
+		}
+	}
+}
