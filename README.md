@@ -1,7 +1,7 @@
 # H3Evo
 ### VCMI based expansion for Heroes of Might and Magic 3
 
-Scope of the project is to make an even better Heroes III, based on VCMI engine, starting from the good ideas already present in HotA.
+Scope of the project is to make an even better and rich in content Heroes III, based on VCMI engine, starting from the good ideas already present in HotA, woG or other mods.
 As a general rule, the scope of the expansion is to improve on existing style and not to introduce radical changes. That beeing said there are no hard rules to obey like: never modify a creature's stats.
 
 The expansion will be built from self contained mods. Each individual change, will be a standalone, independent mod, that can be reused either by itself, or as a submod within other projects.
