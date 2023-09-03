@@ -1,11 +1,10 @@
 {
 	"name" : "Limited Range Master Gremlins",
 	"description" : "A mod that limits the max range and full ranged damage distance of master gremlins",
+	"modType" : "Creatures",
 	"author" : "krs",
 	"contact" : "",
-	"version" : "1.0",
-	"modType" : "Creature",	
-
+	"version" : "0.1",
 	"creatures" :
 	[
 		"config/masterGremlin.json"
