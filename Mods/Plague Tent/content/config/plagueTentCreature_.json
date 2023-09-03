@@ -1,0 +1,10 @@
+{
+	"andruids-expansion.plaguetent:plagueTentCreature" :
+	{
+		"abilities" :
+		{
+			"poisonCasting" : null // no more poison from Plague Tent
+		}
+	}
+}
+

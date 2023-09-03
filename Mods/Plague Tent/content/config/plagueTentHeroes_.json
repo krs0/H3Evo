@@ -1,0 +1,23 @@
+{
+	"andruids-expansion.plaguetent:bubonic" :
+	{
+		"army" :
+		[
+			{
+				"creature" : "zombieLord",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "plagueTentCreature",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "zombieLord",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

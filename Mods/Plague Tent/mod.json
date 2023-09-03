@@ -1,0 +1,26 @@
+{
+	"name" : "Plague Tent",
+	"description" : "A new War Machine for Necropolis Faction and a new Hero who starts and specialises with it. The Plague Tent casts accumulating disease at the target living enemy creature", 
+	"author" : "Krs based on original implementation from Andruids, Trith",
+	"version" : "0.1.0",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
+	"contact" : "",
+	"modType" : "Creatures",
+	"depends" : ["andruids-expansion.plaguetent"],
+	"creatures" :
+	[
+		"config/plagueTentCreature_.json"
+	],
+	"artifacts":
+	[
+		"config/plagueTentArtifact_.json"
+	],
+	"heroes" :
+	[
+		"config/plagueTentHeroes_.json"
+	]
+}
+
