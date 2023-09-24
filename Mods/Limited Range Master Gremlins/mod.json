@@ -5,6 +5,10 @@
 	"author" : "krs",
 	"contact" : "",
 	"version" : "0.1",
+	"compatibility" :
+	{
+		"max" : "1.0" // disabled by default
+	},
 	"creatures" :
 	[
 		"config/masterGremlin.json"
