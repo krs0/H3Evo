@@ -1,18 +1,20 @@
 {
+	"name" : "H3Evo",
+	"description" : "Work-in-progress expansion for Heroes of Might and Magic III",
+	"modType" : "Expansion",
 	"author" : "krs",
 	"contact" : "",
-	"description" : "Work-in-progress expansion for Heroes of Might and Magic III",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Expansion",
-	"name" : "H3Evo",
-	"version" : "0.0.1",
-	"changelog" : 
+	"version" : "0.0.2",
+	"downloadSize" : 1,
+	"changelog" :
 	{
-		"0.0.1"   : [ "Initial Revision with Cursed Lamp and Mirage Lamp" ]
+		"0.0.2" : [ "Added Plague Tent" ],
+		"0.0.1" : [ "Initial Revision with Cursed Lamp and Mirage Lamp" ]
 	},
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.4.0"
 	}
 }

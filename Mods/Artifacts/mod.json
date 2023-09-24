@@ -1,18 +1,19 @@
 {
+	"name" : "H3Evo Artifacts",
+	"description" : "Artifact Collection, new and modified from SoD or other mods",
+	"modType" : "Objects",
 	"author" : "krs",
 	"contact" : "",
-	"description" : "Artifact Collection, new and modified from SoD or other mods",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Objects",
-	"name" : "H3Evo Artifacts",
 	"version" : "0.0.1",
-	"changelog" : 
+	"downloadSize" : 0.07,
+	"changelog" :
 	{
-		"0.0.1"   : [ "Initial Revision with Cursed Lamp and Mirage Lamp" ]
+		"0.0.1" : [ "Initial Revision with Cursed Lamp and Mirage Lamp" ]
 	},
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.4.0"
 	}
 }

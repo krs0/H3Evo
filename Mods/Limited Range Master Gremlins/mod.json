@@ -5,6 +5,7 @@
 	"author" : "krs",
 	"contact" : "",
 	"version" : "0.1",
+	"downloadSize" : 0.08,
 	"compatibility" :
 	{
 		"max" : "1.0" // disabled by default
