@@ -16,5 +16,19 @@
 	"compatibility" :
 	{
 		"min" : "1.4.0"
-	}
+	},
+	"depends" :
+	[
+		"hota",
+		"wake-of-gods",
+		"wake-of-gods.heroes3datapatch",
+		"wake-of-gods.woggraphicfix.wf_creatures",
+		"wake-of-gods.woggraphicfix.wf_artifacts",
+		"wake-of-gods.woggraphicfix.wf_mapobjects",
+		"tides-of-war",
+		"tides-of-war.alternative-creatures",
+		"tides-of-war.neutral-creatures",
+		"tides-of-war.hota-balance-compatibility-patch"
+
+	]
 }

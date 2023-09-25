@@ -1,13 +1,13 @@
 {
-	"mirageLamp" : {	
+	"mirageLamp" : {
 		"name" : "Mirage Lamp",
 		"handler" : "configurable",
 		"types" : {
-			"mirageLamp" : 
+			"mirageLamp" :
 			{
 				"name" : "Mirage Lamp (Ancient Lamp or Cursed Lamp? What could it be?)",
 				"sounds" : {
-					"visit" : ["LAMPVIST"]
+					"visit" : ["hota/LAMPVIST"]
 				},
 				"canRefuse" : true,
 				"visitMode" : "unlimited",
@@ -16,7 +16,7 @@
 				"rewards" :
 				[
 					{
-						"appearChance" : 
+						"appearChance" :
 						{
 							"max" : 15
 						},
@@ -27,10 +27,10 @@
 						"creatures" : [ {"type" : "masterGenie", "amount" : 4} ],
 						"resources" : {"gold" : -2400},
 						"removeObject" : true,
-						"message" : "{Mirage Lamp}\r\n\r\n",
+						"message" : "{Mirage Lamp}\r\n\r\n"
 					},
 					{
-						"appearChance" : 
+						"appearChance" :
 						{
 							"min" : 15,
 							"max" : 30
@@ -42,10 +42,10 @@
 						"creatures" : [ {"type" : "masterGenie", "amount" : 5} ],
 						"resources" : {"gold" : -3000},
 						"removeObject" : true,
-						"message" : "{Mirage Lamp}\r\n\r\n",
+						"message" : "{Mirage Lamp}\r\n\r\n"
 					},
 					{
-						"appearChance" : 
+						"appearChance" :
 						{
 							"min" : 30,
 							"max" : 45
@@ -57,10 +57,10 @@
 						"creatures" : [ {"type" : "masterGenie", "amount" : 6} ],
 						"resources" : {"gold" : -3600},
 						"removeObject" : true,
-						"message" : "{Mirage Lamp}\r\n\r\n",
+						"message" : "{Mirage Lamp}\r\n\r\n"
 					},
 					{
-						"appearChance" : 
+						"appearChance" :
 						{
 							"min" : 45,
 							"max" : 50
@@ -72,10 +72,10 @@
 						"creatures" : [ {"type" : "masterGenie", "amount" : 7} ],
 						"resources" : {"gold" : -4200},
 						"removeObject" : true,
-						"message" : "{Mirage Lamp}\r\n\r\n",
+						"message" : "{Mirage Lamp}\r\n\r\n"
 					},
 					{
-						"appearChance" : 
+						"appearChance" :
 						{
 							"min" : 50,
 							"max" : 67
@@ -87,10 +87,10 @@
 						"creatures" : [ {"type" : "efreetSultan", "amount" : 1} ],
 						"resources" : {"gold" : -1100},
 						"removeObject" : true,
-						"message" : "{Mirage Lamp}\r\n\r\n",
+						"message" : "{Mirage Lamp}\r\n\r\n"
 					},
 					{
-						"appearChance" : 
+						"appearChance" :
 						{
 							"min" : 67,
 							"max" : 83
@@ -102,10 +102,10 @@
 						"creatures" : [ {"type" : "efreetSultan", "amount" : 2} ],
 						"resources" : {"gold" : -2200},
 						"removeObject" : true,
-						"message" : "{Mirage Lamp}\r\n\r\n",
+						"message" : "{Mirage Lamp}\r\n\r\n"
 					},
 					{
-						"appearChance" : 
+						"appearChance" :
 						{
 							"min" :  83
 						},
@@ -116,19 +116,19 @@
 						"creatures" : [ {"type" : "efreetSultan", "amount" : 3} ],
 						"resources" : {"gold" : -3300},
 						"removeObject" : true,
-						"message" : "{Mirage Lamp}\r\n\r\n",
+						"message" : "{Mirage Lamp}\r\n\r\n"
 					}
 				],
 				"rmg" : {
-					"value"		: 5000,
-					"rarity"	: 200,
+					"value" : 5000,
+					"rarity" : 200,
 					"zoneLimit" : 1
 				},
-				"templates" : 
+				"templates" :
 				{
-					"advMirageLamp" : 
+					"advMirageLamp" :
 					{
-						"animation" : "ancientLamp/avtglam", 
+						"animation" : "hota/ancientLamp/avtglam",
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : ["VAV"],
 						"allowedTerrains" : [ "sand" ] //hota jebus cross conditions
@@ -137,24 +137,28 @@
 			}
 		}	
 	},
-	
-	"hota.hota configurable objects:ancientLamp" : { // override sand terrain for Ancient Lamp
+	"hota.mapobjects:ancientLamp" : { // override sand terrain for Ancient Lamp
 		"types" : {
 			"ancient Lamp" : {
 				"templates" : {
 					"avtglam" : {
+						"animation" : "hota/ancientLamp/avtglam",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VAV"],
 						"allowedTerrains" : [ "snow" ]
 					}
 				}
 			}
 		}
 	},
-	
-	"h3evo.cursed lamp:cursedLamp" : { // override sand terrain for Ancient Lamp
+	"h3evo.cursed lamp:cursedLamp" : { // override sand terrain for Cursed Lamp
 		"types" : {
 			"cursedLamp" : {
 				"templates" : {
 					"advCursedLamp" : {
+						"animation" : "hota/ancientLamp/avtglam",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VAV"],
 						"allowedTerrains" : [ "lava" ]
 					}
 				}

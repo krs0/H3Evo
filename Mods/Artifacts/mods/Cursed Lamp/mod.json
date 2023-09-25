@@ -12,7 +12,7 @@
 	{
 		"min" : "1.2.0"
 	},
-	"depends" : ["hota.hota configurable objects"],
+	"depends" : ["hota.mapobjects"],
 	"objects" :
 	[
 		"config/CursedLamp"
