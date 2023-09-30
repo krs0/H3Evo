@@ -8,8 +8,9 @@
 	"downloadSize" : 0.08,
 	"compatibility" :
 	{
-		"max" : "1.0" // disabled by default
+		"min" : "1.4"
 	},
+	"keepDisabled" : true,
 	"creatures" :
 	[
 		"config/masterGremlin.json"
