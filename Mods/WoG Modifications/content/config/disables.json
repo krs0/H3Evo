@@ -1,0 +1,7 @@
+{
+	"wake-of-gods.creatures:werewolf" : {
+		"faction" : "neutral",
+		"special" : true,
+		"disabled" : true
+	}
+}

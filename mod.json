@@ -10,6 +10,7 @@
 	"downloadSize" : 1,
 	"changelog" :
 	{
+		"0.0.4" : [ "Disabled wog warewolves, that were coliding with tow warewolves" ],
 		"0.0.3" : [ "HotA Warehouses with random reward quantities" ],
 		"0.0.2" : [ "Added Plague Tent" ],
 		"0.0.1" : [ "Initial Revision with Cursed Lamp and Mirage Lamp" ]

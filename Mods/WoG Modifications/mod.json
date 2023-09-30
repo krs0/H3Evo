@@ -1,0 +1,21 @@
+{
+	"name" : "Modifications to WoG",
+	"description" : "Disables duplicates with other mods, disables objects not in line with H3Evo",
+	"modType" : "Creatures",
+	"author" : "krs",
+	"contact" : "",
+	"version" : "0.1",
+	"downloadSize" : 0.08,
+	"compatibility" :
+	{
+		"min" : "1.4"
+	},
+	"depends" :
+	[
+		"wake-of-gods.creatures"
+	],
+	"creatures" :
+	[
+		"config/disables.json"
+	]
+}
