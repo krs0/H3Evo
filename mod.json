@@ -10,6 +10,7 @@
 	"downloadSize" : 1,
 	"changelog" :
 	{
+		"0.0.3" : [ "HotA Warehouses with random reward quantities" ],
 		"0.0.2" : [ "Added Plague Tent" ],
 		"0.0.1" : [ "Initial Revision with Cursed Lamp and Mirage Lamp" ]
 	},
@@ -20,7 +21,8 @@
 	"depends" :
 	[
 		"hota",
-		"wake-of-gods",
+		"wake-of-gods.creatures",
+		"wake-of-gods.mapdecorations",
 		"wake-of-gods.heroes3datapatch",
 		"wake-of-gods.woggraphicfix.wf_creatures",
 		"wake-of-gods.woggraphicfix.wf_artifacts",
@@ -29,6 +31,5 @@
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.neutral-creatures",
 		"tides-of-war.hota-balance-compatibility-patch"
-
 	]
 }
