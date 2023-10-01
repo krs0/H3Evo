@@ -12,6 +12,7 @@
 	},
 	"depends" :
 	[
+		"hota.mapobjects",
 		"wake-of-gods.creatures"
 	],
 	"creatures" :

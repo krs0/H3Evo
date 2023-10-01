@@ -6,10 +6,12 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "0.0.2",
+	"version" : "0.0.7",
 	"downloadSize" : 1,
 	"changelog" :
 	{
+		"0.0.7" : [ "Disabled HotA small prisons" ],
+		"0.0.6" : [ "Disabled mythril icon for gold" ],
 		"0.0.5" : [ "Disabled wog chests, except green ones" ],
 		"0.0.4" : [ "Disabled wog warewolves, that were coliding with tow warewolves" ],
 		"0.0.3" : [ "HotA Warehouses with random reward quantities" ],

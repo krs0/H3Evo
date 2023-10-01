@@ -11,5 +11,25 @@
 				}
 			}
 		}
+	},
+	"core:resource" : {
+		"types" : {
+			"gold" : {
+				"templates" : {
+					"zmithr": {
+						"animation" : "AVTGold0.def" // use original. Cannot use null because VCMI will spill WARN global - Def name for obj (79,6) is empty!
+					}
+				}
+			}
+		}
+	},
+	"core:prison": {
+		"types" : {
+			"prison" : {
+				"templates" : {
+					"AVXprsn1" : null
+				}
+			}
+		}
 	}
 }
