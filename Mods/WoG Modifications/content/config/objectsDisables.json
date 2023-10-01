@@ -1,0 +1,15 @@
+{
+	"core:treasureChest" : {
+		"types" : {
+			"treasureChest" : {
+				"templates" : {
+					"zchst2" : null,
+					"zchst3" : null,
+					"zchst4" : null,
+					"zchst5" : null,
+					"zchst6" : null
+				}
+			}
+		}
+	}
+}

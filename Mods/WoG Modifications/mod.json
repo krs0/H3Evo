@@ -16,6 +16,10 @@
 	],
 	"creatures" :
 	[
-		"config/disables.json"
+		"config/creaturesDisables.json"
+	],
+	"objects" :
+	[
+		"config/objectsDisables.json"
 	]
 }
