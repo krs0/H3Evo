@@ -13,6 +13,6 @@
 	"depends" : [ "hota.mapobjects" ],
 	"objects" :
 	[
-		"config/Warehouses.json"
+		"config/warehouses.json"
 	]
 }

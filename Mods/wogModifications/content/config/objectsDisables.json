@@ -31,5 +31,14 @@
 				}
 			}
 		}
+	},
+	"core:shrineOfMagicLevel3" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"zobj046" : null
+				}
+			}
+		}
 	}
 }

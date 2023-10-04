@@ -15,7 +15,7 @@
 	"depends" : ["hota.mapobjects"],
 	"objects" :
 	[
-		"config/CursedLamp"
+		"config/cursedLamp"
 	]
 }
 

@@ -139,7 +139,7 @@
 	},
 	"hota.mapobjects:ancientLamp" : { // override sand terrain for Ancient Lamp
 		"types" : {
-			"ancient Lamp" : {
+			"ancientLamp" : {
 				"templates" : {
 					"avtglam" : {
 						"animation" : "hota/ancientLamp/avtglam",
@@ -151,7 +151,7 @@
 			}
 		}
 	},
-	"h3evo.cursed lamp:cursedLamp" : { // override sand terrain for Cursed Lamp
+	"h3evo.artifacts.cursedlamp:cursedLamp" : { // override sand terrain for Cursed Lamp
 		"types" : {
 			"cursedLamp" : {
 				"templates" : {

@@ -12,10 +12,10 @@
 	{
 		"min" : "1.4.0"
 	},
-	"depends" : ["hota.mapobjects", "h3evo.artifacts.cursed lamp"],
+	"depends" : ["hota.mapobjects", "h3evo.artifacts.cursedlamp"],
 	"objects" :
 	[
-		"config/MirageLamp"
+		"config/mirageLamp"
 	]
 }
 
