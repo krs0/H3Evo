@@ -1,0 +1,68 @@
+{
+	"core:deathKnight" :
+	{
+		"secondarySkills" : {
+			"airMagic" : 2,
+			"archery" : 5,
+			"armorer" : 5,
+			"artillery" : 5,
+			"ballistics" : 7,
+			"diplomacy" : 2,
+			"eagleEye" : 4,
+			"earthMagic" : 4,
+			"estates" : 0,
+			"fireMagic" : 1,
+			"firstAid" : 0,
+			"intelligence" : 5,
+			"leadership" : 0,
+			"learning" : 4,
+			"logistics" : 5,
+			"luck" : 1,
+			"mysticism" : 4,
+			"navigation" : 8,
+			"necromancy" : 0, // set to 0
+			"offence" : 7,
+			"pathfinding" : 4,
+			"resistance" : 5,
+			"scholar" : 2,
+			"scouting" : 4,
+			"sorcery" : 4,
+			"tactics" : 5,
+			"waterMagic" : 3,
+			"wisdom" : 6
+		}
+	},
+	"core:necromancer" :
+	{
+		"secondarySkills" : {
+			"airMagic" : 3,
+			"archery" : 2,
+			"armorer" : 2,
+			"artillery" : 3,
+			"ballistics" : 5,
+			"diplomacy" : 4,
+			"eagleEye" : 7,
+			"earthMagic" : 8,
+			"estates" : 3,
+			"fireMagic" : 2,
+			"firstAid" : 0,
+			"intelligence" : 6,
+			"leadership" : 0,
+			"learning" : 4,
+			"logistics" : 4,
+			"luck" : 1,
+			"mysticism" : 6,
+			"navigation" : 5,
+			"necromancy" : 0, // set to 0
+			"offence" : 3,
+			"pathfinding" : 6,
+			"resistance" : 1,
+			"scholar" : 6,
+			"scouting" : 2,
+			"sorcery" : 6,
+			"tactics" : 2,
+			"waterMagic" : 3,
+			"wisdom" : 8
+		}
+	}
+}

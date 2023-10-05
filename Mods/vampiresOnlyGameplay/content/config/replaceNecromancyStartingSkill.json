@@ -1,0 +1,227 @@
+{
+	"core:aislinn" :
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			}
+		]
+	},
+	"core:charna" :
+	{
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:clavius" :
+	{
+		"skills" : [
+			{
+				"skill" : "luck",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:galthran" :
+	{
+		"skills" : [
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:isra" :
+	{
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "vampire"
+		},
+		"spellbook" : [
+			"curse"
+		]
+	},
+	"core:moandor" :
+	{
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "learning",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:nagash" :
+	{
+		"skills" : [
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:nimbus" :
+	{
+		"skills" : [
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			},
+			{
+				"skill" : "eagleEye",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:sandro" :
+	{
+		"skills" : [
+			{
+				"skill" : "sorcery",
+				"level" : "advanced"
+			}
+		]
+	},
+	"core:septienna" :
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:straker" :
+	{
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:tamika" :
+	{
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "advanced"
+			}
+		]
+	},
+	"core:thant" :
+	{
+		"skills" : [
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:vidomina" :
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"forgetfulness" : {
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.forgetfulness",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	},
+	"core:vokial" :
+	{
+		"skills" : [
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:xsi" :
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "learning",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:ranloo" :
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			}
+		]
+	}
+}

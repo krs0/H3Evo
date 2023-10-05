@@ -12,7 +12,7 @@
 	{
 		"min" : "1.2.0"
 	},
-	"depends" : ["hota.mapobjects"],
+	"depends" : [ "hota.mapobjects" ],
 	"objects" :
 	[
 		"config/cursedLamp"

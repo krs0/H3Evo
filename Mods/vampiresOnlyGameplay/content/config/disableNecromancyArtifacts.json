@@ -1,0 +1,14 @@
+{
+	"core:cloakOfTheUndeadKing" : {
+		"class" : "SPECIAL"
+	},
+	"core:amuletOfTheUndertaker" : {
+		"class" : "SPECIAL"
+	},
+	"core:vampiresCowl" : {
+		"class" : "SPECIAL"
+	},
+	"core:deadMansBoots" : {
+		"class" : "SPECIAL"
+	}
+}
