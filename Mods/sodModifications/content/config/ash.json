@@ -1,0 +1,15 @@
+{
+	"core:ash" :
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		]
+	}
+}

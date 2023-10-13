@@ -1,0 +1,17 @@
+{
+	"name" : "Modifications to H3 SoD",
+	"description" : "Varous changes to SoD, mainly balance but not only",
+	"modType" : "Mechanics",
+	"author" : "krs",
+	"contact" : "",
+	"version" : "0.1",
+	"downloadSize" : 0.08,
+	"compatibility" :
+	{
+		"min" : "1.4"
+	},
+	"heroes" :
+	[
+		"config/ash.json"
+	]
+}
