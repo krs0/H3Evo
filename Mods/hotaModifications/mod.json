@@ -1,6 +1,6 @@
 {
-	"name" : "Modifications to WoG",
-	"description" : "Various changes to WoG, mainly balance but not only",
+	"name" : "Modifications to HotA",
+	"description" : "Various changes to HotA, mainly balance but not only",
 	"modType" : "Mechanics",
 	"author" : "krs",
 	"contact" : "",
@@ -12,12 +12,7 @@
 	},
 	"depends" :
 	[
-		"wake-of-gods.creatures",
-		"wake-of-gods.mapdecorations"
-	],
-	"creatures" :
-	[
-		"config/creaturesDisables.json"
+		"hota.mapobjects"
 	],
 	"objects" :
 	[

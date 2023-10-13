@@ -23,20 +23,20 @@
 			}
 		}
 	},
-	"core:prison": {
-		"types" : {
-			"prison" : {
-				"templates" : {
-					"AVXprsn1" : null
-				}
-			}
-		}
-	},
 	"core:shrineOfMagicLevel3" : {
 		"types" : {
 			"object" : {
 				"templates" : {
 					"zobj046" : null
+				}
+			}
+		}
+	},
+	"core:prison": { // WoG graphical fix duplicate of HotA
+		"types" : {
+			"prison" : {
+				"templates" : {
+					"AVXprsn1" : null
 				}
 			}
 		}
