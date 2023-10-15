@@ -1,0 +1,18 @@
+{
+	"core:necropolis" : {
+		"town" : {
+			"buildings" : {
+				"special2" : { // Necromancy Amplifier
+					"cost" : {
+						"gold" : 1500
+					}
+				},
+				"special3" : { // skelleton transformer
+					"cost" : {
+						"gold" : 1500
+					}
+				}
+			}
+		}
+	}
+}

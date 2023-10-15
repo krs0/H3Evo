@@ -12,6 +12,10 @@
 	},
 	"heroes" :
 	[
-		"config/ash.json"
+		"config/heroesChanges.json"
+	],
+	"factions" :
+	[
+		"config/buildingsChanges.json"
 	]
 }

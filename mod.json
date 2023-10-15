@@ -6,10 +6,11 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "0.0.7",
+	"version" : "0.0.9",
 	"downloadSize" : 1,
 	"changelog" :
 	{
+		"0.0.9" : [ "Increased building cost for Skeleton Transformer and Necromancy Amplifier to 1500" ],
 		"0.0.8" : [ "Ash (has bloodlust starting spell). Starts now with basic fire magic instead of Eagle Eye" ],
 		"0.0.7" : [ "Disabled HotA small prisons" ],
 		"0.0.6" : [ "Disabled mythril icon for gold" ],
