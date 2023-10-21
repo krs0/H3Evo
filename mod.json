@@ -6,19 +6,20 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "0.0.9",
+	"version" : "0.0.10",
 	"downloadSize" : 1,
 	"changelog" :
 	{
-		"0.0.9" : [ "Increased building cost for Skeleton Transformer and Necromancy Amplifier to 1500" ],
+		"0.0.10" : [ "Reduced gold cost for building Inferno's Castle Gate from 10000 to 5000" ],
+		"0.0.9" : [ "Increased building cost for Necropolis Skeleton Transformer and Necromancy Amplifier to 1500" ],
 		"0.0.8" : [ "Ash (has bloodlust starting spell). Starts now with basic fire magic instead of Eagle Eye" ],
 		"0.0.7" : [ "Disabled HotA small prisons" ],
 		"0.0.6" : [ "Disabled mythril icon for gold" ],
-		"0.0.5" : [ "Disabled wog chests, except green ones" ],
-		"0.0.4" : [ "Disabled wog warewolves, that were coliding with tow warewolves" ],
-		"0.0.3" : [ "HotA Warehouses with random reward quantities" ],
-		"0.0.2" : [ "Added Plague Tent" ],
-		"0.0.1" : [ "Initial Revision with Cursed Lamp and Mirage Lamp" ]
+		"0.0.5" : [ "Disabled WoG chests, except green ones" ],
+		"0.0.4" : [ "Disabled WoG warewolves, that were coliding with tow warewolves" ],
+		"0.0.3" : [ "HotA Warehouses now have random reward quantities" ],
+		"0.0.2" : [ "Added Plague Tent as war machine. It is the default warmachine in Necropolis." ],
+		"0.0.1" : [ "Initial Revision with new artifacts: Cursed Lamp and Mirage Lamp" ]
 	},
 	"compatibility" :
 	{
