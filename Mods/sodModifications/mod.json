@@ -17,5 +17,9 @@
 	"factions" :
 	[
 		"config/buildingsChanges.json"
+	],
+	"terrains" :
+	[
+		"config/terrainsChainges.json"
 	]
 }
