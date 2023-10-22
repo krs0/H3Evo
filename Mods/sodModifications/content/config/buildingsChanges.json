@@ -21,6 +21,7 @@
 					}
 				},
 				"special3" : { // skelleton transformer
+					"description" : "The Skeleton Transformer allows you to convert any creature into a skeleton, with the exceptions of living Dragons, Hydras and Sea Serpents/Haspids, which it transforms into Bone Dragons",
 					"cost" : {
 						"gold" : 1500
 					}
