@@ -40,6 +40,38 @@
 		"tides-of-war",
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.neutral-creatures",
-		"tides-of-war.hota-balance-compatibility-patch"
+		"tides-of-war.hota-balance-compatibility-patch",
+		"andruids-expansion",
+		"andruids-expansion.plaguetent"
+	],
+	"conflicts" :
+	[
+		"hota.mainMenu",
+		"wake-of-gods.level8Units",
+		"wake-of-gods.animatedObjects",
+		"wake-of-gods.animatedTrees",
+		"wake-of-gods.battleDecorations",
+		"wake-of-gods.Commanders",
+		"wake-of-gods.creatureBanks",
+		"wake-of-gods.mainMenu",
+		"wake-of-gods.mapObjects",
+		"wake-of-gods.messengersAndEmissaries",
+		"wake-of-gods.skills",
+		"wake-of-gods.spells",
+		"wake-of-gods.stackArtifacts",
+		"wake-of-gods.stackExperience",
+		"wake-of-gods.vividBattlefields",
+		"wake-of-gods.warMachinesOnMap",
+		"tides-of-war.objects",
+		"tides-of-war.artifacts",
+		"tides-of-war.banks",
+		"tides-of-war.heroes",
+		"tides-of-war.tow-main-menu",
+		"tides-of-war.skills",
+		"tides-of-war.spells",
+		"andruids-expansion.damned utopia",
+		"andruids-expansion.initiative",
+		"andruids-expansion.minotaur warlock",
+		"andruids-expansion.powerbond"
 	]
 }
