@@ -1,6 +1,6 @@
 {
 	"name" : "H3Evo",
-	"description" : "Work-in-progress expansion for Heroes of Might and Magic III. How to describe H3Evo current state? It is like playing HoTA with 1 alternative unit per faction, + WoG neutrals, + random small modifications.",
+	"description" : "Expansion for Heroes of Might and Magic III. How to describe H3Evo in current state? It is like playing HoTA, + 1 alternative unit per faction (ToW), + WoG neutrals, + WoG Graphical fixes, + various small additions and ballance changes.",
 	"modType" : "Expansion",
 	"author" : "krs",
 	"contact" : "",
