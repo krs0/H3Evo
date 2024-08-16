@@ -2,7 +2,7 @@
 	"name" : "H3Evo",
 	"description" : "Expansion for Heroes of Might and Magic III. How to describe H3Evo in current state? It is like playing HoTA, + 1 alternative unit per faction (ToW), + WoG neutrals, + WoG Graphical fixes, + various small additions and ballance changes.",
 	"modType" : "Expansion",
-	"author" : "krs",
+	"Author": "Mod compilation by KRS, incorporating works from other modders, including PvP Balance mod objects by Wnukos and graphical assets by Andruids.",
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
@@ -76,5 +76,10 @@
 		"andruids-expansion.initiative",
 		"andruids-expansion.minotaur warlock",
 		"andruids-expansion.powerbond"
-	]
+	],
+	"settings" : {
+        "spells": {
+            "dimensionDoorTournamentRulesLimit" : true
+        }
+    }
 }
