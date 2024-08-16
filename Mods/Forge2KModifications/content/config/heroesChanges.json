@@ -1,0 +1,454 @@
+{
+	// cyborgs
+	"forge2k:deckard2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	},
+
+	"forge2k:flamius2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		]
+	},
+
+	"forge2k:jules2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:rengust2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "stringer2k",
+				"max" : 2,
+				"min" : 2
+			}
+		]
+	},
+
+	"forge2k:singhell2k" :
+	{
+		"army" : [
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			}
+		],
+		
+		"skills": [
+			{ 
+				"skill" : "tactics",
+				"level" : "advanced"
+			}
+		]
+	},
+
+	"forge2k:sprinter2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			}
+		]
+	},
+
+	"forge2k:sturm2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:sunnith2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	// techno junkies
+	"forge2k:agar2k" :
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			}
+		],
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:charity2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"type" : "SPELL_DAMAGE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"texts" :
+		{
+			"name" : "Charity",
+			"biography" : "After the Succession Wars, Charity left the continent of Enroth, lusting after more excitement and conflict. Eventually, she was attracted to the roaring call of the Heavenly Forge, like a moth drawn to the flame.",
+			"specialty" :
+			{
+				"name" : "Sorcery",
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery"
+			}
+		}
+	},
+
+	"forge2k:cistrict2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:elthas2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:everest2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"spellbook" :
+		[
+			"shield",
+			"bloodlust"
+		],
+		"texts" :
+		{
+			"name" : "Everest",
+			"biography" : "Everest was banished from Bracada for taking over wizads' golems and other animated servants. In the more turbulent circles of Techno Junkies, his impulses stopped sparking controversy, allowing him to perfect the art of controlling magical constructs.",
+			"specialty" :
+			{
+				"name" : "Mysticism",
+				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Mysticism"
+			}
+		}
+	},
+
+	"forge2k:kastore2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:leanne2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:null2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+
+	"forge2k:sheikleen2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"specialty" :
+		{
+			"bonuses" : {
+				"intelligence" : {
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Sheikleen",
+			"biography" : "Enigmas like Sheikleen are not uncommon in the ranks of the Heavenly Forge. She emerged one day among the chain of command and her directives won battles, so she was universally deemed a useful asset. Still, there's always an ulterior motive with these kind of people.",
+			"specialty" : {
+				"name" : "Intelligence",
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Intelligence"
+			}
+		}
+	}
+}
