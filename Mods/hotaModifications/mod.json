@@ -16,6 +16,7 @@
 	],
 	"objects" :
 	[
-		"config/objectsDisables.json"
+		"config/objectsDisables.json",
+		"config/warehousesWithRandomQuantities.json"
 	]
 }

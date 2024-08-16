@@ -1,4 +1,5 @@
 {
+	// "HotA warehouses are almost mines. This mod makes them more random. (Similar to Windmills, but for a specific resource)."
 	"hota.mapobjects:warehouses" : {
 		"types" : {
 			"woodWarehouse" : {
