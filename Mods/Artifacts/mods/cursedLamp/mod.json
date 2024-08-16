@@ -10,7 +10,7 @@
 	"downloadSize" : 0.04,
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.5.5"
 	},
 	"depends" : [ "hota.mapobjects" ],
 	"objects" :

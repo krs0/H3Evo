@@ -27,7 +27,7 @@
 	},
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.5.5"
 	},
 	"depends" :
 	[
