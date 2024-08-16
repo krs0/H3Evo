@@ -13,5 +13,9 @@
 	"heroes" :
 	[
 		"config/heroesChanges.json"
+	],
+	"creatures" :
+	[
+		"config/creaturesChanges.json"
 	]
 }

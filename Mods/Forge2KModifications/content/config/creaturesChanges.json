@@ -1,0 +1,168 @@
+{
+	"forge2k:gruntSoldier2k" :
+	{
+		"cost" : {
+			"gold" : 70
+		},
+		"growth" : 12,
+		"aiValue" : 90
+	},
+
+	"forge2k:footSoldier2k" :
+	{
+		"cost" : {
+			"gold" : 100
+		},
+		"growth" : 12,
+		"aiValue" : 110
+	},
+
+	"forge2k:pyro2k" :
+	{
+		"growth" : 5,
+		"aiValue" : 360
+	},
+
+	"forge2k:pyromaniac2k" :
+	{
+		"growth" : 5,
+		"aiValue" : 400
+	},
+	
+	"forge2k:stringer2k" :
+	{
+		"hitPoints" : 40,
+		"cost" : {
+			"gold" : 500
+		},
+		"aiValue" : 800
+	},
+
+	"forge2k:bruiser2k" :
+	{
+		"hitPoints" : 50,
+		"cost" : {
+			"gold" : 650
+		},
+		"aiValue" : 900,
+		"canShoot" : {
+			"type" : "SHOOTER"
+		},
+		"abilities#override" :
+		{
+			"forgeMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator" : "HERO",
+				"limiters": [ 
+					"noneOf", 
+					{
+						"type" : "CREATURE_FACTION_LIMITER",
+						"parameters": [ "forge2k" ]
+					}
+				],
+				"stacking" : "Forge creatures"
+			}
+		}
+	},
+	
+	"forge2k:jumpSoldier2k" :
+	{
+		"aiValue" : 1300
+	},
+	
+	"forge2k:heavystringer2k" :
+	{
+		"special" : true
+	},
+	
+	"forge2k:nagaHeavy2k" :
+	{
+		"aiValue" : 3000
+	},
+
+	"forge2k:jumpTrooper2k" :
+	{
+		"hitPoints" : 70,
+		"aiValue" : 1600
+	},
+
+	"forge2k:juggernaut2k" :
+	{
+		"damage" : {
+			"min" : 45,
+			"max" : 60
+		},
+		"aiValue" : 7500,
+		"abilities#override" :
+		{
+			"forgeMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator" : "HERO",
+				"limiters": [ 
+					"noneOf",
+					{
+						"type" : "CREATURE_FACTION_LIMITER",
+						"parameters": [ "forge2k" ]
+					}
+				],
+				"stacking" : "Forge creatures"
+			},
+			"expSlayer" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"mechanical" :
+			{
+				"type" : "NON_LIVING"
+			}
+		}
+		
+	},
+
+	"forge2k:dreadnought2k":
+	{
+		"hitPoints" : 400,
+		"speed" : 10,
+		"attack" : 35,
+		"defense" : 35,
+		"damage" : {
+			"min" : 45,
+			"max" : 60
+		},
+		"fightValue" : 7635,
+		"aiValue" : 14000,
+		"abilities#override" :
+		{
+			"forgeMorale" :
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator" : "HERO",
+				"limiters": [
+					"noneOf",
+					{
+						"type" : "CREATURE_FACTION_LIMITER",
+						"parameters": [ "forge2k" ]
+					}
+				],
+				"stacking" : "Forge creatures"
+			},
+			"expSlayer" : { 
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"mechanical" : {
+				"type" : "NON_LIVING"
+			},
+			"unlimited" : {
+				"type" : "UNLIMITED_RETALIATIONS"
+			}
+		}
+	}
+}
