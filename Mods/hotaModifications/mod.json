@@ -12,11 +12,14 @@
 	},
 	"depends" :
 	[
-		"hota.mapobjects"
+		"hota.mapobjects",
+		"hota.neutralcreatures",
+		"tides-of-war.alternative-creatures"
 	],
 	"objects" :
 	[
 		"config/objectsDisables.json",
+		"config/experimentalShop.json",
 		"config/warehousesWithRandomQuantities.json"
 	]
 }
