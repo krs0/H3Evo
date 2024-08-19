@@ -21,5 +21,9 @@
 	"terrains" :
 	[
 		"config/terrainsChanges.json"
+	],
+	"artifacts" :
+	[
+		"config/artifactsChanges.json"
 	]
 }
