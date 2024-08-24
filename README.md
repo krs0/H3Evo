@@ -15,14 +15,16 @@ These starting ideas are mine or were gathered over the years from various sourc
 
 ### Current status
 First version already up and running. It already makes use of the bigger mods:
+Bellow a summary of notable changes. For full details please see the [wiki](https://github.com/krs0/H3Evo/wiki)
 - HotA 99%:
--   -  Warehouses made more random: (now they behave more like windmills). In HotA they are mines basicaly, that you had to visit each week
-    -  Small prison template removed, because it does not fit aesteticaly with the rest of objects
+-   -  Warehouses made more random: (now they behave more like windmills)
 - From WoG: Using only Neutral creatures, H3 Data patches, map decorations and WoG graphic fixes mod
 -   -  Disabled some objects: Kept only 1 Treasure Chest template, disabled small prison, disabled shrineOfMagicLevel3
-    -  Disabled werewolves because they exist in ToW mod
+    -  Disabled werewolves and their dwelling because they exist in ToW mod
 - From Tides of War: Using only third upgrades and neutrals
-- Plague tent added to Necropolis instead of the first Aid tent. It casts only plague (unlike Andruids version that casts poison as well). Hero Bubonic with specialty Plague Tent
+- New faction added: Heavenly Forge
+- Plague tent added to Necropolis instead of the first Aid tent. It casts plague
+- Hero Bubonic added with specialty Plague Tent
 - New artifact Cursed Lamp found on lava, gives Efreet
 - New artifact Mirage Lamp found on sand, gives Efreet of Geenies
 
