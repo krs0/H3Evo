@@ -10,6 +10,7 @@
 	"downloadSize" : 1,
 	"changelog" :
 	{
+		"0.0.15" : [ "ReEnabled HotA small prisons since they were fixed in 1.7" ],
 		"0.0.14" : [ "Added WoG dependency" ],
 		"0.0.13" : [ "Changed Skeleton Transformer description to include conversion of living dragons, to bone dragons" ],
 		"0.0.12" : [ "Increased Dungeon's Mana Vortex building cost from 1000 to 2500" ],

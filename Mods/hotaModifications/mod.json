@@ -18,7 +18,6 @@
 	],
 	"objects" :
 	[
-		"config/objectsDisables.json",
 		"config/experimentalShop.json",
 		"config/warehousesWithRandomQuantities.json"
 	]
