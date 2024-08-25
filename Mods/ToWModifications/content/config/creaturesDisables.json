@@ -1,0 +1,7 @@
+{
+	"tides-of-war.creatures:mdtDemilich" : {
+		"faction" : "neutral",
+		"special" : true,
+		"disabled" : true
+	}
+}
