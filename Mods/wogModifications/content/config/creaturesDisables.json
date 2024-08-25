@@ -3,5 +3,10 @@
 		"faction" : "neutral",
 		"special" : true,
 		"disabled" : true
+	},
+	"wake-of-gods.creatures:ghost" : {
+		"faction" : "neutral",
+		"special" : true,
+		"disabled" : true
 	}
 }
