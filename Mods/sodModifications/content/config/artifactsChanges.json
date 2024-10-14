@@ -1,0 +1,9 @@
+{
+	"core:bootsOfSpeed" : {
+		"class": "MAJOR"
+	},
+
+	"core:pendantOfSecondSight" : {
+		"class": "MINOR"
+	}
+}

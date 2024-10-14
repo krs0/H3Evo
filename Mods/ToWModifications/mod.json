@@ -1,6 +1,6 @@
 {
-	"name" : "Modifications to ToW",
-	"description" : "Various changes to ToW, mainly balance but not only",
+	"name" : "Modifications to WoG",
+	"description" : "Various changes to WoG, mainly balance but not only",
 	"modType" : "Mechanics",
 	"author" : "krs",
 	"contact" : "",
@@ -12,15 +12,12 @@
 	},
 	"depends" :
 	[
-		"wake-of-gods.creatures",
-		"wake-of-gods.mapdecorations"
+		"tides-of-war",
+		"tides-of-war.alternative-creatures",
+		"tides-of-war.neutral-creatures"
 	],
 	"creatures" :
 	[
 		"config/creaturesDisables.json"
-	],
-	"objects" :
-	[
-		"config/objectsDisables.json"
 	]
 }

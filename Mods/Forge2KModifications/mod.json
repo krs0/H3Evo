@@ -1,0 +1,21 @@
+{
+	"name" : "Modifications to Forge2K",
+	"description" : "Various changes to Forge2k, mainly balance",
+	"modType" : "Mechanics",
+	"author" : "krs",
+	"contact" : "",
+	"version" : "0.1",
+	"downloadSize" : 0.08,
+	"compatibility" :
+	{
+		"min" : "1.5.5"
+	},
+	"heroes" :
+	[
+		"config/heroesChanges.json"
+	],
+	"creatures" :
+	[
+		"config/creaturesChanges.json"
+	]
+}

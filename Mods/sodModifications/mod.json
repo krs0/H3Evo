@@ -8,7 +8,7 @@
 	"downloadSize" : 0.08,
 	"compatibility" :
 	{
-		"min" : "1.4"
+		"min" : "1.5.5"
 	},
 	"heroes" :
 	[
@@ -21,5 +21,9 @@
 	"terrains" :
 	[
 		"config/terrainsChanges.json"
+	],
+	"artifacts" :
+	[
+		"config/artifactsChanges.json"
 	]
 }

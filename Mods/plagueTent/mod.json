@@ -10,7 +10,7 @@
 	"downloadSize" : 0.14,
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.5.5"
 	},
 	"depends" : ["andruids-expansion.plaguetent"],
 	"creatures" :

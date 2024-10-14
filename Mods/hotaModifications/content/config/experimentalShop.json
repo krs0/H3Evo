@@ -1,0 +1,79 @@
+{
+	// Rewards Drake Golems instead of Giants.
+	"core:creatureBank" :
+	{
+		"types" :
+		{
+			"experimentalShop" :
+			{
+				"rmg" : {
+					"value" : 3500,
+					"rarity" : 80
+				},
+				"levels" :
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 4, "type" : "steelGolem" },
+							{ "amount": 4, "type" : "steelGolem" },
+							{ "amount": 4, "type" : "steelGolem" },
+							{ "amount": 4, "type" : "steelGolem" },
+							{ "amount": 4, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 1, "type": "mdtDrakeGolem" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type" : "steelGolem" },
+							{ "amount": 8, "type" : "steelGolem" },
+							{ "amount": 8, "type" : "steelGolem" },
+							{ "amount": 8, "type" : "steelGolem" },
+							{ "amount": 8, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 2, "type": "mdtDrakeGolem" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type" : "steelGolem" },
+							{ "amount": 12, "type" : "steelGolem" },
+							{ "amount": 12, "type" : "steelGolem" },
+							{ "amount": 12, "type" : "steelGolem" },
+							{ "amount": 12, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 3, "type": "mdtDrakeGolem" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 16, "type" : "steelGolem" },
+							{ "amount": 16, "type" : "steelGolem" },
+							{ "amount": 16, "type" : "steelGolem" },
+							{ "amount": 16, "type" : "steelGolem" },
+							{ "amount": 16, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 4, "type": "mdtDrakeGolem" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

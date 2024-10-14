@@ -8,14 +8,17 @@
 	"downloadSize" : 0.08,
 	"compatibility" :
 	{
-		"min" : "1.4"
+		"min" : "1.5.5"
 	},
 	"depends" :
 	[
-		"hota.mapobjects"
+		"hota.mapobjects",
+		"hota.neutralcreatures",
+		"tides-of-war.alternative-creatures"
 	],
 	"objects" :
 	[
-		"config/objectsDisables.json"
+		"config/experimentalShop.json",
+		"config/warehousesWithRandomQuantities.json"
 	]
 }
