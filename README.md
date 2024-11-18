@@ -19,14 +19,15 @@ Bellow a summary of notable changes. For full details please see the [wiki](http
 - HotA added almost as is:
 -   -  Warehouses made more random: (now they behave more like windmills)
 -   -  Dimension Door balanced.
-- From WoG: Using only a few submods: Neutral creatures, H3 Data patches, map decorations and WoG graphic fixes! mod
 - From Tides of War: Using only alternative upgrades and neutrals
 - Extra faction included: Heavenly Forge
+- From WoG: Using only a few submods: Neutral creatures, H3 Data patches, map decorations and WoG graphic fixes! mod
 - Various changes to SoD: new objects added or balance changes like:
 -   -  Plague tent added to Necropolis instead of the first Aid tent. It casts plague
 -   -  Hero Bubonic added with specialty Plague Tent
 -   -  New artifact Cursed Lamp found on lava, gives Efreet
 -   -  New artifact Mirage Lamp found on sand, gives Efreet of Geenies
+    -  New artifact type: Fused Artifacts (Combined artifacts that take up only 1 slot)
 
 > Continuously consolidating all the seemingly separate ideas, into a cohesive expansion  
 > Implementing some of the no-brainers. (Things that are obvious to add and some of the low-hanging fruits)  
