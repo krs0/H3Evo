@@ -1,6 +1,6 @@
 {
-	"name" : "Modifications to ToW",
-	"description" : "Various changes to ToW, mainly balance but not only",
+	"name" : "Modifications to WoG",
+	"description" : "Disabled some WoG creatures present in other mods.",
 	"modType" : "Mechanics",
 	"author" : "krs",
 	"contact" : "",
@@ -13,7 +13,7 @@
 	"depends" :
 	[
 		"wake-of-gods.creatures",
-		"wake-of-gods.mapdecorations"
+		"wake-of-gods.woggraphicfix.wf_creatures"
 	],
 	"creatures" :
 	[
