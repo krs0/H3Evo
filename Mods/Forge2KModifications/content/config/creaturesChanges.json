@@ -45,9 +45,6 @@
 			"gold" : 650
 		},
 		"aiValue" : 900,
-		"canShoot" : {
-			"type" : "SHOOTER"
-		},
 		"abilities#override" :
 		{
 			"forgeMorale" :
@@ -97,6 +94,10 @@
 		"aiValue" : 7500,
 		"abilities#override" :
 		{
+			"mechanical" :
+			{
+				"type" : "NON_LIVING"
+			},
 			"forgeMorale" :
 			{
 				"type" : "MORALE",
@@ -115,10 +116,6 @@
 				"type" : "KING",
 				"val" : 3,
 				"valueType" : "ADDITIVE_VALUE"
-			},
-			"mechanical" :
-			{
-				"type" : "NON_LIVING"
 			}
 		}
 		
@@ -138,6 +135,12 @@
 		"aiValue" : 14000,
 		"abilities#override" :
 		{
+			"mechanical" : {
+				"type" : "NON_LIVING"
+			},
+			"unlimited" : {
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
 			"forgeMorale" :
 			{
 				"type" : "MORALE",
@@ -156,12 +159,6 @@
 				"type" : "KING",
 				"val" : 3,
 				"valueType" : "ADDITIVE_VALUE"
-			},
-			"mechanical" : {
-				"type" : "NON_LIVING"
-			},
-			"unlimited" : {
-				"type" : "UNLIMITED_RETALIATIONS"
 			}
 		}
 	}
