@@ -3,47 +3,47 @@
 		"types" : {
 			"howlingHollow" : null
 		}
-	},
-	"core:shrineOfMagicLevel3" : {
-		"types" : {
-			"object" : {
-				"templates" : {
-					"zobj046" : null
-				}
-			}
-		}
-	},
-	"core:prison": { // WoG graphical fix duplicate of HotA
-		"types" : {
-			"prison" : {
-				"templates" : {
-					"AVXprsn1" : null
-				}
-			}
-		}
-	},
-	"core:treasureChest" : { // leave only Green chest from WoG
-		"types" : {
-			"treasureChest" : {
-				"templates" : {
-					"zchst2" : null,
-					"zchst3" : null,
-					"zchst4" : null,
-					"zchst5" : null,
-					"zchst6" : null
-				}
-			}
-		}
-	},
-	"core:resource" : {
-		"types" : {
-			"gold" : {
-				"templates" : {
-					"zmithr": {
-						"animation" : "AVTGold0.def" // use original. Cannot use null because VCMI will spill WARN global - Def name for obj (79,6) is empty!
-					}
-				}
-			}
-		}
 	}
+	// "core:shrineOfMagicLevel3" : {
+	// 	"types" : {
+	// 		"object" : {
+	// 			"templates" : {
+	// 				"zobj046" : null
+	// 			}
+	// 		}
+	// 	}
+	// },
+	// "core:prison": { // WoG graphical fix duplicate of HotA
+	// 	"types" : {
+	// 		"prison" : {
+	// 			"templates" : {
+	// 				"AVXprsn1" : null
+	// 			}
+	// 		}
+	// 	}
+	// },
+	// "core:treasureChest" : { // leave only Green chest from WoG
+	// 	"types" : {
+	// 		"treasureChest" : {
+	// 			"templates" : {
+	// 				"zchst2" : null,
+	// 				"zchst3" : null,
+	// 				"zchst4" : null,
+	// 				"zchst5" : null,
+	// 				"zchst6" : null
+	// 			}
+	// 		}
+	// 	}
+	// },
+	// "core:resource" : {
+	// 	"types" : {
+	// 		"gold" : {
+	// 			"templates" : {
+	// 				"zmithr": {
+	// 					"animation" : "AVTGold0.def" // use original. Cannot use null because VCMI will spill WARN global - Def name for obj (79,6) is empty!
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
 }

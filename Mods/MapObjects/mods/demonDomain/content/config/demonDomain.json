@@ -1,0 +1,78 @@
+{
+	"core:creatureBank": {
+		"types": {
+			"demonDomain": {
+				"name": "Demon Domain",
+				"visitMode" : "once",
+				"rewards": [
+					{
+						"appearChance": { "min": 0, "max": 30 },
+						"guards": [
+							{ "type": "pitFiend", "amount": 5 },
+							{ "type": "demon", "amount": 7, "upgradeChance" : 50 },
+							{ "type": "demon", "amount": 7, "upgradeChance" : 50 },
+							{ "type": "pitFiend", "amount": 5 },
+							{ "type": "hellHound", "amount": 10 }
+						],
+						"creatures": [{ "type": "efreet", "amount": 4 }]
+					},
+					{
+						"appearChance": { "min": 30, "max": 60 },
+						"guards": [
+							{ "type": "pitFiend", "amount": 7 },
+							{ "type": "hornedDemon", "amount": 10, "upgradeChance" : 50 },
+							{ "type": "hornedDemon", "amount": 10, "upgradeChance" : 50 },
+							{ "type": "pitFiend", "amount": 7 },
+							{ "type": "hellHound", "amount": 14 }
+						],
+						"creatures": [{ "type": "efreet", "amount": 6 }]
+					},
+					{
+						"appearChance": { "min": 60, "max": 90 },
+						"guards": [
+							{ "type": "pitLord", "amount": 10 },
+							{ "type": "hornedDemon", "amount": 15, "upgradeChance" : 50 },
+							{ "type": "hornedDemon", "amount": 15, "upgradeChance" : 50 },
+							{ "type": "pitLord", "amount": 10 },
+							{ "type": "cerberus", "amount": 20 }
+						],
+						"creatures": [{ "type": "efreet", "amount": 8 }]
+					},
+					{
+						"appearChance": { "min": 90, "max": 100 },
+						"guards": [
+							{ "type": "pitLord", "amount": 14 },
+							{ "type": "hornedDemon", "amount": 20, "upgradeChance" : 50 },
+							{ "type": "hornedDemon", "amount": 20, "upgradeChance" : 50 },
+							{ "type": "pitLord", "amount": 14 },
+							{ "type": "cerberus", "amount": 28 }
+						],
+						"creatures": [{ "type": "efreet", "amount": 10 }]
+					}
+				],
+				"rmg": {
+					"value": 4000,
+					"rarity": 80,
+					"zoneLimit": 4
+				},
+				"templates": {
+					"base": {
+						"animation": "demonDomain.def",
+						"visitableFrom": [
+							"---",
+							"---",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"VBAV"
+						],
+						"allowedTerrains" : [ "lava", "sand", "asphalt" ]
+					}
+				}
+			}
+		}
+	}
+}

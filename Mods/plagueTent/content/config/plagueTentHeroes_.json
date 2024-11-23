@@ -9,7 +9,7 @@
 				"max" : 5
 			},
 			{
-				"creature" : "plagueTentCreature",
+				"creature" : "plagueTent",
 				"max" : 1,
 				"min" : 1
 			},

@@ -10,6 +10,10 @@
 	{
 		"min" : "1.5.5"
 	},
+	"depends" :
+	[
+		"forge2k"
+	],
 	"heroes" :
 	[
 		"config/heroesChanges.json"
