@@ -5,7 +5,8 @@
 		"types" : {
 			"mirageLamp" :
 			{
-				"name" : "Mirage Lamp (Ancient Lamp or Cursed Lamp? What could it be?)",
+				"name" : "Mirage Lamp",
+				"description" : "Ancient Lamp or Cursed Lamp? What could it be?",
 				"sounds" : {
 					"visit" : ["hota/LAMPVIST"]
 				},
