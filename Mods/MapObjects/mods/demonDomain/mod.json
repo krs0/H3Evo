@@ -1,0 +1,24 @@
+{
+	"name" : "Demon Domain",
+	"description" : "New creature bank: Demon Domain. Defeat a mixed inferno army to gain Efreeti", 
+	"modType" : "Objects",
+	"author" : "Krs, based on PvP mod made by wnukos. Graphics by Andruid",
+	"contact" : "",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "0.0.1",
+	"downloadSize" : 0.02,
+	"compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+	"depends" :
+	[
+		"asphalt-terrain"
+	],
+	"objects" :
+	[
+		"config/demonDomain"
+	]
+}
+
