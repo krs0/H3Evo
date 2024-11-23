@@ -151,7 +151,7 @@
 			}
 		}
 	},
-	"h3evo.artifacts.cursedlamp:cursedLamp" : { // override sand terrain for Cursed Lamp
+	"h3evo.mapobjects.cursedlamp:cursedLamp" : { // override sand terrain for Cursed Lamp
 		"types" : {
 			"cursedLamp" : {
 				"templates" : {
