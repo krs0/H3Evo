@@ -4,6 +4,10 @@
 			"demonDomain": {
 				"name": "Demon Domain",
 				"visitMode" : "once",
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankWide",
 				"rewards": [
 					{
 						"appearChance": { "min": 0, "max": 30 },
@@ -53,10 +57,11 @@
 				"rmg": {
 					"value": 4000,
 					"rarity": 80,
-					"zoneLimit": 4
+					"zoneLimit": 3
 				},
 				"templates": {
 					"base": {
+						"allowedTerrains" : [ "lava", "sand", "asphalt" ],
 						"animation": "demonDomain.def",
 						"visitableFrom": [
 							"---",
@@ -68,8 +73,7 @@
 							"VVVV",
 							"VBBV",
 							"VBAV"
-						],
-						"allowedTerrains" : [ "lava", "sand", "asphalt" ]
+						]
 					}
 				}
 			}
