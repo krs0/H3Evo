@@ -1,17 +1,12 @@
 {
 	// Rewards Drake Golems instead of Giants.
-	"core:creatureBank" :
-	{
-		"types" :
-		{
-			"experimentalShop" :
-			{
-				"rmg" : {
-					"value" : 3500,
-					"rarity" : 80
-				},
-				"rewards" :
-				[
+	"core:creatureBank" : {
+		"types" : {
+			"experimentalShop" : {
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards" : [
 					{
 						"appearChance" : { "min" : 0, "max" : 30 },
 						"guards": [
@@ -24,7 +19,7 @@
 						"creatures": [ { "amount": 1, "type": "mdtDrakeGolem" } ]
 					},
 					{
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 8, "type" : "steelGolem" },
 							{ "amount": 8, "type" : "steelGolem" },
@@ -35,7 +30,7 @@
 						"creatures": [ { "amount": 2, "type": "mdtDrakeGolem" } ]
 					},
 					{
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 12, "type" : "steelGolem" },
 							{ "amount": 12, "type" : "steelGolem" },
@@ -46,7 +41,7 @@
 						"creatures": [ { "amount": 3, "type": "mdtDrakeGolem" } ]
 					},
 					{
-						"appearChance" : { "min" : 0, "max" : 10 },
+						"appearChance" : { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 16, "type" : "steelGolem" },
 							{ "amount": 16, "type" : "steelGolem" },
@@ -56,7 +51,12 @@
 						],
 						"creatures": [ { "amount": 4, "type": "mdtDrakeGolem" } ]
 					}
-				]
+				],
+				"rmg" : {
+					"value" : 3500,
+					"rarity" : 80,
+					"zoneLimit": 3
+				}
 			}
 		}
 	}
