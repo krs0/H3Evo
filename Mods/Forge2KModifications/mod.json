@@ -21,5 +21,9 @@
 	"creatures" :
 	[
 		"config/creaturesChanges.json"
+	],
+	"spells" :
+	[
+		"config/spellsChanges.json"
 	]
 }
