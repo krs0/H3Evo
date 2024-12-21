@@ -1,6 +1,6 @@
 {
 	"name" : "H3Evo",
-	"description" : "Expansion for Heroes of Might and Magic III. How to describe H3Evo in current state? It is like playing HoTA, + 1 alternative unit per faction (ToW), + WoG neutrals, + WoG Graphical fixes, + various small additions and ballance changes.",
+	"description": "Expansion for Heroes of Might and Magic III. How to describe H3Evo in current state? It is like playing HoTA, + 1 alternative unit per faction (ToW), + WoG neutrals, + WoG Graphical fixes, + various small additions and ballance changes.<br><br>Mod manual can be found in the official <a href=\"https://github.com/krs0/H3Evo/wiki\">H3Evo wiki</a>",
 	"modType" : "Expansion",
 	"author": "Mod compilation by KRS, incorporating works from other modders, including PvP Balance mod objects by Wnukos and graphical assets by Andruids.",
 	"contact" : "",
