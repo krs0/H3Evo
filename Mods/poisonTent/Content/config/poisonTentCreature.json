@@ -30,8 +30,8 @@
 			"poisonCasting" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype": "spell.poisonTentPoison",
-				"addInfo": 90
+				"subtype": "spell.poison"
+			},
 			},
 			"casts" :
 			{

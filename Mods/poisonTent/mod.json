@@ -20,9 +20,5 @@
 	"spells":
 	[
 		"config/poisonTentSpells.json" 
-	],
-	"heroes" :
-	[
-		"config/poisonTentHeroes.json"
 	]
 }
