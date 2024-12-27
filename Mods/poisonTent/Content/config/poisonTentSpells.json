@@ -1,8 +1,73 @@
 {
-	"core:poison" :
+	"poisonTentPoison" :
 	{
-		"targetType": "CREATURE"
+		"type" : "ability", 
+		"targetType" : "CREATURE",
+		"name" : "Poison",
+		"index" : 71,
+		"school" : { "air" : false, "earth" : false, "fire" : false, "water" : false},
+		"level" : 1,
+		"power" : 0,
+		"defaultGainChance" : 0, 
+		"gainChance" : {},
+		"flags" :
+		{
+			"negative": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.MECHANICAL" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		}, 
+		"graphics":
+		{
+			"iconEffect": "poisonEffect",
+			"iconImmune": "abilityimmunity/imm_poison.bmp"
+		},
+		"animation":
+		{
+			"affect":["SP11_"]
+		},
+		"sounds":
+		{
+			"cast" : "POISON"
+		},
+		"levels" :
+		{
+			"base" :
+			{
+				"aiValue" : 0,
+				"range" : "0",
+				"targetModifier" :
+				{
+					"smart" : true
+				},
+				"description" : "{Poison}\nPoisons the target the target.\n",
+				"cost" : 0,
+				"power" : 1,
+				"effects" : {
+					"poison" : {
+						"type" : "POISON",
+						"val" : 50,
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS"
+					},
+					"stackHealth" : {
+						"type" : "STACK_HEALTH",
+						"val" : -10,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {}, "basic" : {}, "advanced" : {}, "expert" : {}
+		}
 	},
+
 	"poisonTentNoAttack" :
 	{
 		"type" : "ability",
