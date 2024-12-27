@@ -1,0 +1,17 @@
+{
+	"core:fortress" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"blacksmith" :
+				{
+					"warMachine" : "poisonTent",
+					"description" : "The Blacksmith provides your armies with Poison Tents."
+				}
+				
+			}
+		}
+	}
+}

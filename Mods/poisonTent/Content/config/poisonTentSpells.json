@@ -1,0 +1,46 @@
+{
+	"core:poison" :
+	{
+		"targetType": "CREATURE"
+	},
+	"poisonTentNoAttack" :
+	{
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"name" : "No Attack",
+		"school" : { "air" : false, "earth" : false, "fire" : false, "water" : false },
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" :{},
+		"counters" : {},
+		"graphics" : { "iconEffect" : "poisonNoAttack" },
+		"animation" : {},
+		"sounds" : {},
+		"levels" : {
+			"base" : {
+				"description" : "{No Attack}\r\n\r\nIt's a siege machine, so it can't attack in melee, duh...",
+				"cost" : 0,
+				"power" : 1,
+				"aiValue" : 0,
+				"range" : "0",
+				"targetModifier" : { "smart" : true },
+				"effects" : {
+					"noAttack" : {
+						"type" : "ADDITIONAL_ATTACK",
+						"val": -99
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		},
+		"targetCondition" : { "allOf" : {}, "noneOf" : {}, "anyOf" : {} },
+		"flags" : {
+			"indifferent": true,
+			"special": true
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name" : "Poison Tent",
+	"description" : "A new War Machine for Fortress Faction and a new Hero who starts and specialises with it. The Poison Tent casts poison disease at the target enemy. It only works on living creatures!",
+	"author": "krs",
+	"version" : "1.0",
+	"contact": "",
+	"modType" : "Creatures",
+	"factions" :
+	[
+		"config/poisonTent.json"
+	],
+	"creatures" :
+	[
+		"config/poisonTentCreature.json"
+	],
+	"artifacts":
+	[
+		"config/poisonTentArtifact.json"
+	],
+	"spells":
+	[
+		"config/poisonTentSpells.json" 
+	],
+	"heroes" :
+	[
+		"config/poisonTentHeroes.json"
+	]
+}

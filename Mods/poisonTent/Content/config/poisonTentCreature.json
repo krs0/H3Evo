@@ -1,0 +1,67 @@
+{
+	"poisonTent":
+	{
+		"special" : true,
+		"name" :
+		{
+			"singular" : "Poison Tent",
+			"plural" : "Poison Tent"
+		},
+		"faction" : "neutral",
+		"level": 0,
+		"cost" :
+		{
+			"gold" : 1500
+		},
+		"hitPoints" : 125,
+		"speed" : 0,
+		"attack" : 0,
+		"defense" : 0,
+		"fightValue" : 2500,
+		"aiValue" : 2500,
+		"doubleWide" : true,
+		"growth" : 0,
+		"abilities" :
+		{
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			},
+			"poisonCasting" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype": "spell.poison",
+				"addInfo": 30
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val": 12
+			},
+			"noAttacking" :
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.poisonTentNoAttack"
+			}
+		},
+		"graphics" :
+		{
+			"animation" : "poisonTentBattle",
+			"iconSmall" : "poisonTentIconSmall",
+			"iconLarge" : "poisonTentIconLarge",
+			"map" : "poisonTentMap",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"killed": "FAIDKILL.wav",
+			"wince": "FAIDWNCE.wav"
+		}
+	}
+}
