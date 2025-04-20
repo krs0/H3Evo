@@ -91,7 +91,7 @@
 			"min" : 45,
 			"max" : 60
 		},
-		"aiValue" : 7500,
+		"aiValue" : 7200,
 		"abilities#override" :
 		{
 			"mechanical" :
@@ -132,7 +132,7 @@
 			"max" : 60
 		},
 		"fightValue" : 7635,
-		"aiValue" : 14000,
+		"aiValue" : 12000,
 		"abilities#override" :
 		{
 			"mechanical" : {

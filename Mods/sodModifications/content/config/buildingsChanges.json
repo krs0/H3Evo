@@ -1,4 +1,39 @@
 {
+	"core:castle" : {
+		"town" : {
+			"buildings" : {
+				"dwellingLvl3" : {
+					"requires#override" : ["dwellingLvl1"]
+				}
+			}
+		}
+	},
+	"core:rampart" : {
+		"town" : {
+			"buildings" : {
+				"dwellingLvl4" : {
+					"cost" : {
+						"gold" : 2000,
+						"crystal" : 5
+					}
+				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5,
+						"ore" : 5,
+						"gems" : 5
+					}
+				},
+				"dwellingLvl7" : {
+					"requires#override" : [
+						"allOf",
+						[ "dwellingLvl6" ]
+					]
+				}
+			}
+		}
+	},
 	"core:inferno" : {
 		"town" : {
 			"buildings" : {
@@ -29,12 +64,107 @@
 			}
 		}
 	},
+	"core:tower" : {
+		"town" : {
+			"buildings" : {
+				"dwellingLvl4": {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 1,
+						"gems" : 1,
+						"crystal" : 1,
+						"sulfur" : 1
+					}
+				}
+			}
+		}
+	},
 	"core:dungeon" : {
 		"town" : {
 			"buildings" : {
 				"special2" : { // Mana vortex
 					"cost" : {
 						"gold" : 2500
+					}
+				},
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"gems" : 5
+					}
+				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 5
+					}
+				},
+				"dwellingLvl7" : {
+					"requires#override" : [
+						"allOf",
+						[ "dwellingLvl5" ],
+						[ "dwellingLvl6" ]
+					]
+				}
+			}
+		}
+	},
+	"core:stronghold" : {
+		"town" : {
+			"buildings" : {
+				"dwellingLvl4" : {
+					"cost" : {
+						"wood" : 10
+					}
+				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"ore" : 10
+					}
+				}
+			}
+		}
+	},
+	"core:fortress" : {
+		"town" : {
+			"buildings" : {
+				"dwellingUpLvl5" : {
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires#override" : [
+						"allOf",
+						[ "marketplace" ],
+						[ "dwellingLvl4" ]
+					],
+					"upgrades" : "dwellingLvl5"
+				}
+			}
+		}
+	},
+	"core:conflux" : {
+		"town" : {
+			"buildings" : {
+				"dwellingUpLvl1" :
+				{
+					"requires#override" : [
+						"allOf",
+						[ "horde1" ]
+					]
+				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 10,
+						"ore" : 10,
+						"mercury" : 10
 					}
 				}
 			}

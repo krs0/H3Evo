@@ -1,0 +1,43 @@
+{
+	"hota.heroes:beatrice" :
+	{
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 14,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+
+	"hota.interference:giselle" :
+	{
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 16,
+				"max" : 22
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	}
+}

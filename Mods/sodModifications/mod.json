@@ -12,7 +12,21 @@
 	},
 	"heroes" :
 	[
-		"config/heroesChanges.json"
+		"config/heroesChanges.json",
+		"config/castleHeroesChanges.json",
+		"config/rampartHeroesChanges.json",
+		"config/infernoHeroesChanges.json",
+		"config/necropolisHeroesChanges.json",
+		"config/fortressHeroesChanges.json",
+		"config/strongholdHeroesChanges.json",
+		"config/confluxHeroesChanges.json"
+	],
+	"heroClasses" : [
+		"config/heroClassesChanges.json"
+	],
+	"creatures" :
+	[
+		"config/creaturesChanges.json"
 	],
 	"factions" :
 	[

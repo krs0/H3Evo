@@ -5,18 +5,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"specialty" : {
@@ -38,18 +38,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"skills" : [
@@ -69,18 +69,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -90,13 +90,13 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "stringer2k",
@@ -111,18 +111,18 @@
 		"army" : [
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			}
 		],
 		
@@ -139,18 +139,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
-				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"creature" : "cyberDead2k",
+				"min" : 4,
+				"max" : 6
 			},
 			{
-				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"creature" : "pyro2k",
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -160,18 +160,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -181,18 +181,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -200,27 +200,27 @@
 	// techno junkies
 	"forge2k:agar2k" :
 	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 16,
+				"max" : 22
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 2,
+				"max" : 3
+			}
+		],
 		"skills" : [
 			{
 				"skill" : "wisdom",
 				"level" : "advanced"
-			}
-		],
-		"army" : [
-			{
-				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
-			},
-			{
-				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
-			},
-			{
-				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
 			}
 		]
 	},
@@ -230,18 +230,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"specialty" : {
@@ -273,18 +273,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -294,18 +294,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -315,18 +315,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"spellbook" :
@@ -352,18 +352,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -373,18 +373,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -394,18 +394,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		]
 	},
@@ -415,18 +415,18 @@
 		"army" : [
 			{
 				"creature" : "gruntSoldier2k",
-				"min" : 15,
-				"max" : 25
+				"min" : 16,
+				"max" : 22
 			},
 			{
 				"creature" : "cyberDead2k",
-				"min" : 5,
-				"max" : 7
+				"min" : 4,
+				"max" : 6
 			},
 			{
 				"creature" : "pyro2k",
-				"min" : 3,
-				"max" : 4
+				"min" : 2,
+				"max" : 3
 			}
 		],
 		"specialty" :
