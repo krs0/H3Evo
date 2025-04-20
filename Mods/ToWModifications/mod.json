@@ -14,7 +14,8 @@
 	[
 		"tides-of-war",
 		"tides-of-war.alternative-creatures",
-		"tides-of-war.neutral-creatures"
+		"tides-of-war.neutral-creatures",
+		"tides-of-war.heroes"
 	],
 	"factions" :
 	[

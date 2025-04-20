@@ -1,6 +1,6 @@
 {
 	// cyborgs
-	"forge2k:deckard2k" :
+	"forge2k:cyb_deckard2k" :
 	{
 		"army" : [
 			{
@@ -33,7 +33,7 @@
 		}
 	},
 
-	"forge2k:flamius2k" :
+	"forge2k:cyb_flamius2k" :
 	{
 		"army" : [
 			{
@@ -64,7 +64,7 @@
 		]
 	},
 
-	"forge2k:jules2k" :
+	"forge2k:cyb_jules2k" :
 	{
 		"army" : [
 			{
@@ -85,7 +85,28 @@
 		]
 	},
 
-	"forge2k:rengust2k" :
+	"forge2k:cyb_null2k" :
+	{
+		"army" : [
+			{
+				"creature" : "gruntSoldier2k",
+				"min" : 16,
+				"max" : 22
+			},
+			{
+				"creature" : "cyberDead2k",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "pyro2k",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+
+	"forge2k:cyb_rengust2k" :
 	{
 		"army" : [
 			{
@@ -106,7 +127,7 @@
 		]
 	},
 
-	"forge2k:singhell2k" :
+	"forge2k:cyb_singhell2k" :
 	{
 		"army" : [
 			{
@@ -134,7 +155,7 @@
 		]
 	},
 
-	"forge2k:sprinter2k" :
+	"forge2k:cyb_sprinter2k" :
 	{
 		"army" : [
 			{
@@ -155,7 +176,7 @@
 		]
 	},
 
-	"forge2k:sturm2k" :
+	"forge2k:cyb_sturm2k" :
 	{
 		"army" : [
 			{
@@ -176,7 +197,7 @@
 		]
 	},
 
-	"forge2k:sunnith2k" :
+	"forge2k:cyb_sunnith2k" :
 	{
 		"army" : [
 			{
@@ -198,7 +219,7 @@
 	},
 
 	// techno junkies
-	"forge2k:agar2k" :
+	"forge2k:tp_agar2k" :
 	{
 		"army" : [
 			{
@@ -225,7 +246,7 @@
 		]
 	},
 
-	"forge2k:charity2k" :
+	"forge2k:tp_charity2k" :
 	{
 		"army" : [
 			{
@@ -268,7 +289,7 @@
 		}
 	},
 
-	"forge2k:cistrict2k" :
+	"forge2k:tp_cistrict2k" :
 	{
 		"army" : [
 			{
@@ -289,7 +310,7 @@
 		]
 	},
 
-	"forge2k:elthas2k" :
+	"forge2k:tp_elthas2k" :
 	{
 		"army" : [
 			{
@@ -310,7 +331,7 @@
 		]
 	},
 
-	"forge2k:everest2k" :
+	"forge2k:tp_everest2k" :
 	{
 		"army" : [
 			{
@@ -347,7 +368,7 @@
 		}
 	},
 
-	"forge2k:kastore2k" :
+	"forge2k:tp_kastore2k" :
 	{
 		"army" : [
 			{
@@ -368,7 +389,7 @@
 		]
 	},
 
-	"forge2k:leanne2k" :
+	"forge2k:tp_leanne2k" :
 	{
 		"army" : [
 			{
@@ -389,28 +410,7 @@
 		]
 	},
 
-	"forge2k:null2k" :
-	{
-		"army" : [
-			{
-				"creature" : "gruntSoldier2k",
-				"min" : 16,
-				"max" : 22
-			},
-			{
-				"creature" : "cyberDead2k",
-				"min" : 4,
-				"max" : 6
-			},
-			{
-				"creature" : "pyro2k",
-				"min" : 2,
-				"max" : 3
-			}
-		]
-	},
-
-	"forge2k:sheikleen2k" :
+	"forge2k:tp_sheikleen2k" :
 	{
 		"army" : [
 			{

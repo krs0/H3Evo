@@ -10,13 +10,21 @@
 	{
 		"min" : "1.5.5"
 	},
+	"depends" :
+	[
+		"hota.gamebalance",
+		"tides-of-war.alternative-creatures"
+	],
+	"softDepends" :
+	[
+		"vampires-only-gameplay-enhancements.hotacompatibility"
+	],
 	"heroes" :
 	[
 		"config/heroesChanges.json",
 		"config/castleHeroesChanges.json",
 		"config/rampartHeroesChanges.json",
 		"config/infernoHeroesChanges.json",
-		"config/necropolisHeroesChanges.json",
 		"config/fortressHeroesChanges.json",
 		"config/strongholdHeroesChanges.json",
 		"config/confluxHeroesChanges.json"
