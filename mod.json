@@ -6,10 +6,11 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "0.0.17",
+	"version" : "0.0.18",
 	"downloadSize" : 1,
 	"changelog" :
 	{
+		"0.0.18" : [ "Add custom fused artifacts mod, that fuses only some artifacts. Main Fused Artifacts mod not used anymore!" ],
 		"0.0.17" : [ "Add relevant Balance changes from pvp-balance mod" ],
 		"0.0.16" : [ "Add wiki style mod documentation to mod description" ],
 		"0.0.15" : [ "ReEnabled HotA small prisons since they were fixed in 1.7" ],
@@ -42,9 +43,6 @@
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.neutral-creatures",
 		"tides-of-war.hota-balance-compatibility-patch",
-		"fused-artifacts",
-		"fused-artifacts.fusedartifactssod",
-		"fused-artifacts.fusedartifactshota",
 		"andruids-expansion",
 		"andruids-expansion.plaguetent"
 	],

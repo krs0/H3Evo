@@ -1,0 +1,86 @@
+{
+	"hota.artifacts:diplomatsCloak" : {
+		"fusedComponents" : true,
+		"bonuses" : [
+			{
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 30,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	},
+	"hota.artifacts:goldenGoose" : {
+		"fusedComponents" : true,
+		"bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"valueType" : "BASE_NUMBER",
+				"val" : 7000
+			}
+		]
+	},
+	"hota.artifacts:ironfistOfTheOgre" : {
+		"fusedComponents" : true,
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.spellpower",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.knowledge",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.haste",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.bloodlust",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.counterstrike",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.fireShield",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	},
+	"hota.artifacts:pendantOfReflection" : {
+		"fusedComponents" : true,
+		"bonuses" : [
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	}
+}
