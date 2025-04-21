@@ -1,0 +1,85 @@
+{
+	"core:fiur":
+	{
+		"army" : [
+			{
+				"creature" : "pixies",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElementals",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "fireElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+
+	"core:ignissa":
+	{
+		"army" : [
+			{
+				"creature" : "pixies",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElementals",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "fireElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+
+	"core:lacus" :
+	{
+		"army" : [
+		{
+			"creature" : "pixies",
+			"min" : 15,
+			"max" : 25
+		},
+		{
+			"creature" : "waterElemental",
+			"min" : 3,
+			"max" : 5
+		},
+		{
+			"creature" : "waterElemental",
+			"min" : 3,
+			"max" : 4
+		}
+	]
+},
+
+"core:kalt" :
+	{
+		"army" : [
+			{
+				"creature" : "pixies",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	}
+}

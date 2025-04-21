@@ -1,0 +1,16 @@
+{
+	"name" : "Fused Artifacts",
+	"description" : "This modification transforms the existing combination artifacts from Shadow of Death and Horn of the Abyss into fused artifacts. Unlike traditional combination artifacts, which occupy multiple slots when assembled, a fused artifact takes up only a single slot. However, keep in mind that they cannot be disassembled!",
+	"modType" : "Artifacts",
+	"author" : "Krs",
+	"contact" : "",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0.0",
+	"downloadSize" : 0.14,
+	"compatibility" :
+	{
+		"min" : "1.6.0"
+	}
+}
+

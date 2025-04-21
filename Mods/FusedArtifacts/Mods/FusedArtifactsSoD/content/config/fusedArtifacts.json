@@ -1,0 +1,223 @@
+{
+	"core:bowOfTheSharpshooter" : {
+		"fusedComponents" : true,
+		"bonuses" : [
+			{
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"subtype" : "damageTypeRanged",
+				"val" : 30,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PERCENTAGE_DAMAGE_BOOST",
+							"damageTypeRanged",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.archery"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type" : "FREE_SHOOTING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			},
+			{
+				"type" : "NO_DISTANCE_PENALTY",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			},
+			{
+				"type" : "NO_WALL_PENALTY",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : ["SHOOTER_ONLY"]
+			}
+		]
+	},
+	"core:cloakOfTheUndeadKing" : {
+		"fusedComponents" : true,
+		 "bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 30,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.skeleton",
+				"addInfo" : 0
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.walkingDead",
+				"addInfo" : 1
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.wight",
+				"addInfo" : 2
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.lich",
+				"addInfo" : 3
+			}
+		]
+	},
+	"core:cornucopia" : {
+		"fusedComponents" : true,
+		 "bonuses" : [
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.mercury",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.sulfur",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.crystal",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gems",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	},
+	"core:elixirOfLife" : {
+		"fusedComponents" : true,
+		 "bonuses" : [
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 4,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [
+					"noneOf",
+					"IS_UNDEAD",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "NON_LIVING" ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "MECHANICAL" ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "GARGOYLE" ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "SIEGE_WEAPON" ]
+					}
+				]
+			},
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [
+					"noneOf",
+					"IS_UNDEAD",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "NON_LIVING" ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "MECHANICAL" ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "GARGOYLE" ]
+					},
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "SIEGE_WEAPON" ]
+					}
+				]
+			}
+		]
+	},
+	"core:ringOfTheMagi" : {
+		"fusedComponents" : true,
+		 "bonuses" : [
+			{
+				"type" : "SPELL_DURATION",
+				"val" : 56,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	},
+	"core:statueOfLegion" : {
+		"fusedComponents" : true,
+		 "bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH_PERCENT",
+				"val" : 50,
+				"propagator": "PLAYER_PROPAGATOR"
+			},
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel2",
+				"val" : 5,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			},
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel3",
+				"val" : 4,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			},
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel4",
+				"val" : 3,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			},
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel5",
+				"val" : 2,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			},
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel6",
+				"val" : 1,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},
+	"core:wizardsWell" : {
+		"fusedComponents" : true,
+		"bonuses" : [
+			{
+				"type" : "FULL_MANA_REGENERATION",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	}
+}

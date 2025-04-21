@@ -20,5 +20,13 @@
 	[
 		"config/experimentalShop.json",
 		"config/warehousesWithRandomQuantities.json"
+	],
+	"heroes" :
+	[
+		"config/heroesChanges.json"
+	],
+	"creatures" :
+	[
+		"config/creaturesChanges.json"
 	]
 }

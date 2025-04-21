@@ -16,8 +16,21 @@
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.neutral-creatures"
 	],
+	"factions" :
+	[
+		"config/factionsChanges.json"
+	],
 	"creatures" :
 	[
+		"config/creaturesChanges.json",
 		"config/creaturesDisables.json"
-	]
+	],
+	//"heroes"
+	//[
+	//	"tides-of-war.heroes",
+	//],
+	//"spells" :
+	//[
+	//	"config/spellsChanges.json"
+	//]
 }

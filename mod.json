@@ -6,10 +6,12 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "0.0.16",
+	"version" : "0.0.18",
 	"downloadSize" : 1,
 	"changelog" :
 	{
+		"0.0.18" : [ "Add custom fused artifacts mod, that fuses only some artifacts. Main Fused Artifacts mod not used anymore!" ],
+		"0.0.17" : [ "Add relevant Balance changes from pvp-balance mod" ],
 		"0.0.16" : [ "Add wiki style mod documentation to mod description" ],
 		"0.0.15" : [ "ReEnabled HotA small prisons since they were fixed in 1.7" ],
 		"0.0.14" : [ "Added WoG dependency" ],
@@ -41,9 +43,6 @@
 		"tides-of-war.alternative-creatures",
 		"tides-of-war.neutral-creatures",
 		"tides-of-war.hota-balance-compatibility-patch",
-		"fused-artifacts",
-		"fused-artifacts.fusedartifactssod",
-		"fused-artifacts.fusedartifactshota",
 		"andruids-expansion",
 		"andruids-expansion.plaguetent"
 	],
@@ -101,6 +100,22 @@
 			"dimensionDoorFailureSpendsPoints" : false,
 			// if enabled, dimension door will initiate a fight upon landing on tile adjacent to neutral creature
 			"dimensionDoorTriggersGuards" : true
+		},
+		"towns": {
+			"spellResearch": true,
+			"spellResearchCost": [
+				{ "gold": 1000, "wood" : 0, "ore": 0, "mercury": 2, "sulfur": 2, "crystal": 2, "gems": 2 },
+				{ "gold": 1000, "wood" : 0, "ore": 0, "mercury": 4, "sulfur": 4, "crystal": 4, "gems": 4 },
+				{ "gold": 1000, "wood" : 0, "ore": 0, "mercury": 6, "sulfur": 6, "crystal": 6, "gems": 6 },
+				{ "gold": 1000, "wood" : 0, "ore": 0, "mercury": 8, "sulfur": 8, "crystal": 8, "gems": 8 },
+				{ "gold": 1000, "wood" : 0, "ore": 0, "mercury": 10, "sulfur": 10, "crystal": 10, "gems": 10 }
+			],
+			"spellResearchPerDay": [ 2, 2, 2, 2, 1 ],
+			"spellResearchCostExponentPerResearch": [ 0, 0, 0, 0, 0 ]
+		},
+		"creatures" : {
+			"allowJoiningForFree" : false,
+			"joiningPercentage" : 50
 		}
 	}
 }

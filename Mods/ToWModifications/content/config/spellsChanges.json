@@ -1,0 +1,35 @@
+{
+	"tides-of-war.alternative-creatures:mdtTrawl" : {
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				"cost" : 0,
+				"range" : "0",
+				"aiValue" : 20,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"trawlEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"reduceSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : -100, //-100% speed?
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS",
+								"turns" : 1
+							}
+						}
+					}
+				},
+				"description" : "{Trawl}\r\n\r\nTarget unit can't move for one round."
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

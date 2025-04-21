@@ -1,4 +1,5 @@
 {
+	// Had Basic Wisdom and Basic Eagle Eye
 	"core:ash" :
 	{
 		"skills" : [
@@ -9,6 +10,58 @@
 			{
 				"skill" : "fireMagic",
 				"level" : "basic"
+			}
+		]
+	},
+
+	// Had Scholar as Secondary skill, bad for a Manticore Specialist
+	"core:synca" : {
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "advanced"
+			}
+		]
+	},
+
+	"core:straker" :
+	{
+		"army" : [
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "walkingDead",
+				"min" : 6,
+				"max" : 8
+			}
+		]
+	},
+
+	"core:piquedram" :
+	{
+		"army": [
+			{
+				"creature": "stoneGargoyle",
+				"min": 7,
+				"max": 9
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 7,
+				"max": 9
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 7,
+				"max": 9
 			}
 		]
 	}
